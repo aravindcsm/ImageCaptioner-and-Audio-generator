@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generated Caption and Audio</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h2>Generated Caption:</h2>
+    <p>{{ caption }}</p>
+    
+    <h2>Listen to the Audio:</h2>
+    <audio controls>
+        <source src="{{ url_for('static', filename='caption_audio.mp3') }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <br><br>
+    <a href="/">Upload another image</a>
+</body>
+</html>
+
