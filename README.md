@@ -21,7 +21,7 @@ ImageCaptioner-and-Audio-Generator is a powerful tool that automatically generat
 1. Clone the repository:  
    git clone https://github.com/aravindcsm/ImageCaptioner-and-Audio-Generator.git
    cd ImageCaptioner-and-Audio-Generator
-Install dependencies:
+2.Install dependencies:
 pip install -r requirements.txt
-Run the application:
+3.Run the application:
 python app.py
